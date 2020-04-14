@@ -22,7 +22,7 @@ public class Calculadora {
 	 switch (opcion) {
 		case 1:
 			System.out.println("Elegiste la opcion suma");
-			resultado = a + b;
+			resultado = a * b;
 			break;
 		case 2:
 			System.out.println("Elegiste la opcion resta");
@@ -36,6 +36,9 @@ public class Calculadora {
 		case 4:
 			System.out.println("Elegiste la opcion division");
 			resultado = a / b;
+			break;
+		case 5: System.out.println("Elegiste la opcion division");
+			resultado = a + b;
 			break;
 		}
 	 System.out.println("El resultado es " + resultado.toString());
